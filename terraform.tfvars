@@ -1,0 +1,6 @@
+location               = "West Europe"
+org_name               = "cf"
+app_name               = "tf_practice"
+resource_group_name    = "rg"
+storage_account_name   = "test"
+storage_account_prefix = "sa"
