@@ -10,18 +10,29 @@ variable "storage_account_name" {
   type = string
 }
 
-variable "App_Service_Plan_Name" {
+variable "app_service_plan_name" {
   type = string
 }
 
-variable "Function_App_Name" {
+variable "function_app_name" {
   type = string
 }
 
-variable "Function_App_Name_Prefix" {
+variable "function_app_name_prefix" {
    type = string
 }
 
-variable "App_Service_Plan_Name_Prefix" {
+variable "app_service_plan_name_prefix" {
   type = string
 }
+
+variable "app_insight_name " {
+   type = string
+}
+
+variable "app_insight_name_prefix" {
+   type = string
+}
+
+
+  

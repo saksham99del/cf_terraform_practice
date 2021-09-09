@@ -27,3 +27,11 @@ variable "storage_account_prefix" {
   type = string
 
 }
+
+variable "app_service_plan_name_prefix" {
+  type = string
+}
+
+variable "app_service_plan_name" {
+  type = string
+}
